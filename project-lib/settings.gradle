@@ -1,0 +1,5 @@
+rootProject.name = 'project-lib'
+
+
+include 'lib-one'
+include 'lib-two'

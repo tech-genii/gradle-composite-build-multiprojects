@@ -1,0 +1,4 @@
+rootProject.name = 'composite-build'
+
+includeBuild "../project-lib"
+includeBuild "../project-application"

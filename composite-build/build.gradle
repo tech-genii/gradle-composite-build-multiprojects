@@ -1,0 +1,13 @@
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+
+task build {
+    dependsOn gradle.includedBuilds*.task(':build')
+}
+
+task clean {
+    dependsOn gradle.includedBuilds*.task(':clean')
+}
+
+

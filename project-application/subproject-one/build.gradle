@@ -1,0 +1,7 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+dependencies {
+    compile "com.example:lib-one:1.0.0-SNAPSHOT"
+}
